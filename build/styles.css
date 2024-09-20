@@ -1,0 +1,72 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background: #eee;
+  padding: 0 16px;
+}
+.questionBar {
+  position: relative;
+  width: 80%;
+  height: 7em;
+  margin: 30px auto 30px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+.questionBar h1 {
+  font-size: 2em;
+}
+
+.optionArea {
+  display: inline-block;
+  position: relative;
+  width: 80%;
+  margin: 30px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+.answerOption {
+  display: inline-block;
+  margin: 10px;
+}
+
+.answerOption p {
+  padding: 10px;
+
+  height: 6rem;
+  max-width: 180px;
+  word-wrap: break-word;
+  margin: 0;
+}
+
+button {
+  position: relative;
+  font-size: 2.2em;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  width: 20%;
+  height: 100px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+.back {
+  position: relative;
+  background: #f5ba13;
+
+  right: 21%;
+}
+
+.next {
+  position: relative;
+  background: #3ea829;
+  left: 21%;
+}
